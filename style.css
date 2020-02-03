@@ -1,0 +1,61 @@
+#game {
+  position: relative;
+
+  width: 100%;
+  height: 80vh;
+
+  background: url("img/back.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100px;
+
+  background: url("img/ground.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+#player {
+  position: absolute;
+  bottom: 400px;
+  left: 400px;
+
+  width: 100px;
+  height: 48px;
+
+  background: url("img/plane.png");
+  background-size: contain;
+
+  transition: 2s;
+  transition-timing-function: ease-in;
+}
+
+.eagle {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+
+  width: 60px;
+  height: 60px;
+
+  background: url("img/roket.png");
+  background-size: cover;
+}
+
+.gameover {
+  width: 400px;
+  height: 200px;
+  color: red;
+  font-size: 50px;
+  margin-left: 650px;
+  margin-top: 250px;
+
+  display: none;
+}
